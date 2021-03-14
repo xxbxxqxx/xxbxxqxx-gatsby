@@ -25,16 +25,18 @@ function SEO({ description, lang, meta, title }) {
     `
   )
 
-  const metaDescription = description || site.siteMetadata.description
-  const defaultTitle = site.siteMetadata?.title
+  const metaTitle = title ? title : site.siteMetadata.title
+  const metaDescription = description ? description : site.siteMetadata.description
+  //const title = site.siteMetadata.title
+  //const defaultTitle = site.siteMetadata?.title
 
   return (
     <Helmet
       htmlAttributes={{
         lang,
       }}
-      title={title}
-      titleTemplate={defaultTitle ? `%s | ${defaultTitle}` : null}
+      title={metaTitle}
+      //titleTemplate={defaultTitle ? `%s | ${defaultTitle}` : null}
       meta={[
         {
           name: `description`,
@@ -69,7 +71,8 @@ function SEO({ description, lang, meta, title }) {
           content: metaDescription,
         },
       ].concat(meta)}
-    />
+    >
+    </Helmet>
   )
 }
 
