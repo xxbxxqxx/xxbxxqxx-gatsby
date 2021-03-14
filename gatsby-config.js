@@ -44,10 +44,10 @@ module.exports = {
         spaceId: process.env.CONTENTFUL_SPACE_ID,
         accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
       },
-    },
-    {
-      resolve: `gatsby-plugin-sitemap`,
-      options: {
+    }
+    //{
+    //  resolve: `gatsby-plugin-sitemap`,
+    //  options: {
         //output: `/some-other-sitemap.xml`,
         //exclude: [`/category/*`, `/path/to/page`],
         //query: `
@@ -75,8 +75,8 @@ module.exports = {
         //      priority: 0.7,
         //    }
         //  })
-      }
-    },
+    //  }
+    //},
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
