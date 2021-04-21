@@ -22,7 +22,7 @@ const Menu = ({ open }) => {
     <div className="menuSlide" style={open ? {transform: "translateX(0)"} : {transform: "translateX(100%)"}}>
       <div className="menuTitle">
         <span role="img" aria-label="about us" className="icon">&#x1f98c;</span>
-        <Link to="/">書いているひと</Link>
+        <Link to="/about">書いているひと</Link>
       </div>
       <div className="menuTitle">
         <span role="img" aria-label="price" className="icon">&#x1f4c1;</span>

@@ -24,7 +24,7 @@ const Footer = ({ siteTitle }) => {
 
   return (
   <footer>
-    <div className="container flex-row">
+    <div className="container flex-row ">
       <div className="footer-content-copyright flex-column-4">
         © 2021 <a href="https://xxbxxqxx.com/" rel="home">xxbxxqxx</a>
       </div>
