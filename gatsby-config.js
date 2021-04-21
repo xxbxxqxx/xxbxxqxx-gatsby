@@ -5,7 +5,7 @@ module.exports = {
     title: `xxbxxqxx`,
     description: `とある辺境からの便り。ドイツ生活、山登り、ガジェット、読んだ本の紹介など。`,
     author: `Ryo Konishi`,
-    siteUrl: "https://xxbxxqxx.com",
+    //siteUrl: "https://xxbxxqxx.com",
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
