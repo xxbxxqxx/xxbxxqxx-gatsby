@@ -42,7 +42,7 @@ const Footer = ({ siteTitle }) => {
         <div className="flex-column-4">
           <p className="footer-subtitle">Feature</p>
           <ul>
-            <li><Link to="/tag/de/">#ドイツ</Link></li>
+            <li><Link to="/tag/germany/">#ドイツ</Link></li>
             <li><Link to="/tag/books_choice/">#読んでよかった本</Link></li>
             <li><Link to="/tag/gear_hike/">#私の山道具</Link></li>
             <li><Link to="/tag/eurasia_hiker/">#ユーラシアハイカー</Link></li>
