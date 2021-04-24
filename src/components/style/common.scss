@@ -1049,7 +1049,7 @@ div[class*="Home-page"]{
 	border-left: solid 1px $c-lightgray3;
 	height: 100vh;
 	text-align: left;
-	padding: 2rem 4rem;
+	padding: 2rem 3rem;
 	//position: absolute; これだと右にはみ出ちゃう
 	position: fixed;
 	top: 0;
@@ -1371,6 +1371,9 @@ div[class*="Home-page"]{
 				}
 			}
 		}
+	}
+	main{
+		margin-top: 74px;
 	}
 	main .container.flex-row{
 		flex-direction: column;
